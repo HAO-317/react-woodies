@@ -7,6 +7,9 @@ import Jenson from './pages/Jenson';
 import Deon from './pages/Deon'; 
 import Krisha from './pages/Krisha'; 
 
+const NotFound: React.FC = () => {
+  return <h2>404 - Page Not Found</h2>;
+};
 const App: React.FC = () => {
   return (
     <Router>

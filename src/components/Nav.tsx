@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/img/Logo.png'; 
 import '../styles/Nav.css';
 
 const Nav: React.FC = () => {
   return (
     <nav className="nav">
       <Link to="/" aria-label="Home">
-        <img className="logo" src={logo} alt="WOODIES Logo" />
+        <img className="logo" src= '/img/Logo.png' alt="WOODIES Logo" />
       </Link>
       <ul className="frame">
         <li>

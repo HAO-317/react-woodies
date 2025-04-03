@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Nav from '../components/Nav';
-import furnitureImage from '../assets/img/Home.png';
 import '../styles/Home.css';
 
 const Home: React.FC = () => {
@@ -23,7 +22,7 @@ const Home: React.FC = () => {
             <section className="image-content">
               <div className="image-container">
 
-                <img className="furniture-image" src={furnitureImage} alt="Modern wooden furniture set" />
+                <img className="furniture-image" src="/img/Home.png" alt="Modern wooden furniture set" />
               </div>
               <div className="background-overlay"></div> 
             </section>
