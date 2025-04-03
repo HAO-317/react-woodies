@@ -1,0 +1,155 @@
+.footer {
+    width: 100%;
+    max-width: 1153px;
+    height: 327px;
+    background-color: #f1f1f1;
+    margin: 0 auto;
+  }
+  
+  .footer .overlap {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1045px;
+    height: 100%;
+  }
+  
+  .footer .overlap-group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer .pexels-photo {
+    position: absolute;
+    width: 48.61%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    object-fit: cover;
+  }
+  
+  .footer .frame {
+    position: absolute;
+    width: 67.85%;
+    height: auto;
+    top: 31.8%;
+    left: 0;
+  }
+  
+  .footer .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  
+  .footer .group {
+    position: relative;
+    width: 194px;
+    height: 33px;
+  }
+  
+  .footer .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 38px;
+    font-family: "Nunito-Bold", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #3e3f43;
+    font-size: 24px;
+    letter-spacing: 6px;
+    line-height: 1.4;
+    margin: 0;
+  }
+  
+  .footer .img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .footer .text-wrapper-2 {
+    font-family: "Nunito-Regular", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #8d8d8d;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  .footer .text-wrapper-2 a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer .text-wrapper-2 a:hover,
+  .footer .text-wrapper-2 a:focus {
+    text-decoration: underline;
+  }
+  
+  .footer .line {
+    position: absolute;
+    width: 67.75%;
+    height: 1px;
+    top: 24.16%;
+    left: 0.1%;
+    background-color: #8d8d8d;
+    border: none;
+  }
+  
+  .footer .text-wrapper-3 {
+    position: absolute;
+    bottom: 12.54%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Nunito-SemiBold", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #8d8d8d;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .footer .overlap {
+      left: 0;
+      transform: none;
+    }
+  
+    .footer .pexels-photo {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      right: auto;
+    }
+  
+    .footer .frame {
+      position: relative;
+      width: 100%;
+      top: auto;
+      margin-top: 20px;
+    }
+  
+    .footer .line {
+      width: 100%;
+      top: auto;
+      margin: 20px 0;
+    }
+  
+    .footer .text-wrapper-3 {
+      position: relative;
+      bottom: auto;
+      left: auto;
+      transform: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }

@@ -1,0 +1,85 @@
+.jenson {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+.jenson .main-content {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1152px;
+  height: 738px;
+  position: relative;
+}
+
+
+.product-name {
+  position: absolute;
+  top: 24px;
+  left: 38px;
+  font-family: "Nunito-Bold", Helvetica;
+  font-weight: 700;
+  color: #3e3f43;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.product-category {
+  position: absolute;
+  top: 0;
+  left: 550px;
+  font-family: "Nunito-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #2222221a;
+  font-size: 72px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.header-line {
+  width: 385px;
+  top: 28px;
+  left: 165px;
+  position: absolute;
+  height: 1px;
+  border: none;
+  background-color: #000;
+}
+
+.product-showcase {
+  position: relative;
+}
+
+.product-image-wrapper {
+  position: absolute;
+  width: 280px;
+  height: 400px;
+  top: 138px;
+  left: 210px;
+  background-color: #f5f5f5; 
+}
+
+.product-image {
+  position: absolute;
+  width: 246px;
+  height: 224px;
+  top: 88px;
+  left: 0;
+}
+
+.product-description {
+  width: 448px;
+  top: 241px;
+  left: 594px;
+  font-family: "Nunito-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 24px;
+  position: absolute;
+  letter-spacing: 0;
+  line-height: normal;
+}
