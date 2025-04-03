@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-woodies/static/css/main.ddd3e925.css",
+    "main.js": "/react-woodies/static/js/main.8380e942.js",
+    "static/media/Home.png": "/react-woodies/static/media/Home.64e63c090d7c0dfc62db.png",
+    "static/media/About.png": "/react-woodies/static/media/About.48ef16f40ee648d37553.png",
+    "static/media/Footer.png": "/react-woodies/static/media/Footer.cd589cfcf219b58ee40f.png",
+    "static/media/Schuesseln.png": "/react-woodies/static/media/Schuesseln.f8fb5a999661162b65c5.png",
+    "static/media/Stuhl.png": "/react-woodies/static/media/Stuhl.f1b59455ba346b8f39cd.png",
+    "static/media/Tisch.png": "/react-woodies/static/media/Tisch.0598a9846a7a5b4211bf.png",
+    "index.html": "/react-woodies/index.html",
+    "main.ddd3e925.css.map": "/react-woodies/static/css/main.ddd3e925.css.map",
+    "main.8380e942.js.map": "/react-woodies/static/js/main.8380e942.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddd3e925.css",
+    "static/js/main.8380e942.js"
+  ]
+}
