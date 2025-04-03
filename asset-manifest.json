@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-woodies/static/css/main.ddd3e925.css",
-    "main.js": "/react-woodies/static/js/main.36a6141b.js",
+    "main.js": "/react-woodies/static/js/main.7a36b5b1.js",
     "index.html": "/react-woodies/index.html",
     "main.ddd3e925.css.map": "/react-woodies/static/css/main.ddd3e925.css.map",
-    "main.36a6141b.js.map": "/react-woodies/static/js/main.36a6141b.js.map"
+    "main.7a36b5b1.js.map": "/react-woodies/static/js/main.7a36b5b1.js.map"
   },
   "entrypoints": [
     "static/css/main.ddd3e925.css",
-    "static/js/main.36a6141b.js"
+    "static/js/main.7a36b5b1.js"
   ]
 }
