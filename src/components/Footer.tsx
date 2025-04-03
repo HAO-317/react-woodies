@@ -7,12 +7,12 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="overlap">
         <div className="overlap-group">
-          <img className="pexels-photo" src='${process.env.PUBLIC_URL}/img/Footer.png' alt="Decorative background image" />
+          <img className="pexels-photo" src='img/Footer.png' alt="Decorative background image" />
           <div className="frame">
             <div className="contact-info">
               <div className="group">
                 <h2 className="text-wrapper"></h2>
-                <img className="logo" src='${process.env.PUBLIC_URL}/img/Logo.png' alt="WOODIES Logo" />
+                <img className="logo" src='img/Logo.png' alt="WOODIES Logo" />
               </div>
               <address>
                 <p className="text-wrapper-2">

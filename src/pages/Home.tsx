@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             <section className="image-content">
               <div className="image-container">
 
-                <img className="furniture-image" src="${process.env.PUBLIC_URL}/img/Home.png" alt="Modern wooden furniture set" />
+                <img className="furniture-image" src="img/Home.png" alt="Modern wooden furniture set" />
               </div>
               <div className="background-overlay"></div> 
             </section>

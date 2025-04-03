@@ -14,13 +14,13 @@ const Jenson: React.FC = () => {
 
             Jenson
             </h1>
-            <img className="group-3" src='${process.env.PUBLIC_URL}/img/group28.png' alt="Decorative icon" />
+            <img className="group-3" src='img/group28.png' alt="Decorative icon" />
             <div className="product-category">PRODUCTS</div>
             <hr className="header-line" />
           </header>
           <section className="product-showcase">
             <div className="product-image-wrapper">
-              <img className="product-image" src='${process.env.PUBLIC_URL}/img/Tisch.png' alt="Jenson table top view" />
+              <img className="product-image" src='img/Tisch.png' alt="Jenson table top view" />
             </div>
             <p className="product-description">
               Jenson demonstrates what designer Tim Fenby does best. Clean lines, subtle curves and an oak finish nail this season's trends. Boomerang legs add serious style points – not that this dining table needs it. Nordic retro? You got it.

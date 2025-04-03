@@ -6,7 +6,7 @@ const Nav: React.FC = () => {
   return (
     <nav className="nav">
       <Link to="/" aria-label="Home">
-        <img className="logo" src= '${process.env.PUBLIC_URL}/img/Logo.png' alt="WOODIES Logo" />
+        <img className="logo" src= 'img/Logo.png' alt="WOODIES Logo" />
       </Link>
       <ul className="frame">
         <li>
