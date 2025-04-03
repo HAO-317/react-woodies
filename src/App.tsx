@@ -12,7 +12,7 @@ const NotFound: React.FC = () => {
 };
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
